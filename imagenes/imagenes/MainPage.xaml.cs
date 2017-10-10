@@ -241,7 +241,7 @@ namespace imagenes
         {
             DisplayAlert("N° de imagenes que te gustaron", resultado.Text + like, "OK");
         }
-
+        ///
         private void Button_Clicked_1(object sender, EventArgs e)
         {
             DisplayAlert("N° de imagenes que no gustaron", resultado.Text + nlike, "OK");
