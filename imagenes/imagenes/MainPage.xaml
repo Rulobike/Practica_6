@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:imagenes"
+             x:Class="imagenes.MainPage">
+
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Image  Source="img1.jpg" VerticalOptions="Center" HorizontalOptions="Center"></Image>
+                <Button Text="Me gusta" VerticalOptions="Start" HorizontalOptions="Start" Clicked="Mg1"></Button>
+                <Button Text="No me gusta" VerticalOptions="Start" HorizontalOptions="Start" Clicked="Ng1"></Button>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Image Source="img2.jpg" VerticalOptions="Center" HorizontalOptions="Center"></Image>
+                <Button Text="Me gusta" VerticalOptions="Start" HorizontalOptions="Start" Clicked="Mg2"></Button>
+                <Button Text="No me gusta" VerticalOptions="Start" HorizontalOptions="Start" Clicked="Ng2"></Button>
+
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Image Source="img3.jpg" VerticalOptions="Center" HorizontalOptions="Center"></Image>
+                <Button Text="Me gusta" VerticalOptions="Start" HorizontalOptions="Start" Clicked="Mg3"></Button>
+                <Button Text="No me gusta" VerticalOptions="Start" HorizontalOptions="Start" Clicked="Ng3"></Button>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Image Source="img4.jpg" HorizontalOptions="Center" VerticalOptions="Center"></Image>
+                <Button Text="Me gusta" VerticalOptions="Start" HorizontalOptions="Start" Clicked="Mg4"></Button>
+                <Button Text="No me gusta" VerticalOptions="Start" HorizontalOptions="Start" Clicked="Ng4"></Button>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Image Source="img5.jpg" VerticalOptions="Center" HorizontalOptions="Center"></Image>
+                <Button Text="Me gusta" VerticalOptions="Start" HorizontalOptions="Start" Clicked="Mg5"></Button>
+                <Button Text="No me gusta" VerticalOptions="Start" HorizontalOptions="Start" Clicked="Ng5"></Button>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Image Source="img6.jpg" VerticalOptions="Center" HorizontalOptions="Center"></Image>
+                <Button Text="Me gusta" VerticalOptions="Start" HorizontalOptions="Start" Clicked="Mg6"></Button>
+                <Button Text="No me gusta" VerticalOptions="Start" HorizontalOptions="Start" Clicked="Ng6"></Button>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Image Source="img7.jpg" VerticalOptions="Center" HorizontalOptions="Center"></Image>
+                <Button Text="Me gusta" VerticalOptions="Start" HorizontalOptions="Start" Clicked="Mg7"></Button>
+                <Button Text="No me gusta" VerticalOptions="Start" HorizontalOptions="Start" Clicked="Ng7"></Button>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Image Source="img8.png" VerticalOptions="Center" HorizontalOptions="Center"></Image>
+                <Button Text="Me gusta" VerticalOptions="Start" HorizontalOptions="Start" Clicked="Mg8"></Button>
+                <Button Text="No me gusta" VerticalOptions="Start" HorizontalOptions="Start" Clicked="Ng8"></Button>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Image Source="img9.png" VerticalOptions="Center" HorizontalOptions="Center"></Image>
+                <Button Text="Me gusta" VerticalOptions="Start" HorizontalOptions="Start" Clicked="Mg9"></Button>
+                <Button Text="No me gusta" VerticalOptions="Start" HorizontalOptions="Start" Clicked="Ng9"></Button>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Image Source="img10.jpg" VerticalOptions="Center" HorizontalOptions="Center"></Image>
+                <Button Text="Me gusta" VerticalOptions="Start" HorizontalOptions="Start" Clicked="Mg10"></Button>
+                <Button Text="No me gusta" VerticalOptions="Start" HorizontalOptions="Start" Clicked="Ng10"></Button>
+                <Entry x:Name="resultado" IsVisible="False"></Entry>
+                <Button Text="numero de No like's" VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="Red" Clicked="Button_Clicked_1"></Button>
+                <Button Text="Numero de Like's" VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="Blue" Clicked="Button_Clicked"></Button>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    
+</CarouselPage>
